@@ -42,5 +42,3 @@ clean:
 	$(shell sed -i '$$d' $(output_file) && . $(output_file))
 	$(call make_sub_dir,clean)
 	@rm -rf *.o *.so *.a
-
-
